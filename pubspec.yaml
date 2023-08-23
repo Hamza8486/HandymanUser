@@ -1,0 +1,124 @@
+name: user_apps
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+3
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  webview_flutter: ^3.0.4
+  share_plus: ^6.3.1
+  pin_code_fields: ^7.4.0
+  flutter_svg: ^1.1.6
+  geocoder2: ^1.4.0
+  firebase_auth: ^4.2.10
+  google_maps_flutter: ^2.2.5
+  location: ^4.4.0
+  firebase_messaging: ^14.2.6
+  firebase_core: ^2.7.1
+  flutter_local_notifications: ^13.0.0
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  country_code_picker: ^3.0.0
+  http: ^0.13.5
+  url_launcher: ^6.1.10
+  shared_preferences: ^2.0.18
+  image_picker: ^0.8.7
+  flutter_localization: ^0.1.12
+  persistent_bottom_nav_bar: ^5.0.2
+  carousel_slider: ^4.2.1
+  photo_view: ^0.14.0
+  cloud_firestore: ^4.4.4
+  firebase_storage: ^11.0.15
+  flutter_phone_direct_caller: ^2.1.1
+  firebase_analytics: ^10.1.5
+  cached_network_image: ^3.2.3
+  permission_handler: ^10.2.0
+  fluttertoast: ^8.2.1
+  uuid: ^3.0.7
+  dio: ^5.0.2
+  flutter_switch: ^0.3.2
+  givestarreviews: ^1.0.2
+  intl: ^0.18.0
+  expandable: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.2.14
+flutter_native_splash:
+  # This package generates native code to customize Flutter's default white native splash screen
+  # with background color and splash image.
+  # Customize the parameters below, and run the following command in the terminal:
+  # flutter pub run flutter_native_splash:create
+  # To restore Flutter's default white splash screen, run the following command in the terminal:
+  # flutter pub run flutter_native_splash:remove
+
+  # color or background_image is the only required parameter.  Use color to set the background
+  # of your splash screen to a solid color.  Use background_image to set the background of your
+  # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
+  # size of the app. Only one parameter can be used, color and background_image cannot both be set.
+  color: "#FFFFFF"
+  image: assets/images/splash.png
+  #background_image: "assets/background.png"
+  android: true
+  ios: true
+  web: true
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/svgs/
+    - assets/images/
+    - assets/
+
+  fonts:
+    - family: regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: light
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+    - family: semi
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
