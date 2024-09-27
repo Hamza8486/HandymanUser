@@ -1,16 +1,38 @@
-# user_apps
+Privacy Policy for My Hive Provider
+=
+1. Introduction
 
-A new Flutter project.
+Welcome to My Hive Provider. Your privacy is important to us, and we are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, use, and disclose your information when you use our app.
 
-## Getting Started
+2. Information We Collect
 
-This project is a starting point for a Flutter application.
+We collect the following types of information:
 
-A few resources to get you started if this is your first Flutter project:
+Personal Information: When you sign up, we collect your phone number, name, services, and location.
+Booking Details: Information about services requested, location, and the date/time of your bookings.
+Communications: We collect messages between users and providers for customer support and transactional purposes.
+3. How We Use Your Information
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+We use the information collected for the following purposes:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Account Creation and Verification: To register your account and verify your identity.
+Booking Management: Allowing providers to receive bookings, send quotes, accept or reject bookings, and complete transactions.
+Service Improvement: Analyzing app usage and improving user experience.
+Notifications: Sending updates about bookings, quotations, and important notices.
+4. Sharing of Information
+
+We may share your information in the following circumstances:
+
+With Service Providers: Your information may be shared with service providers to facilitate bookings.
+Legal Obligations: If required by law or to protect our rights and comply with legal processes.
+5. Data Security
+
+We take appropriate security measures to protect your information from unauthorized access, alteration, or destruction. However, no method of transmission over the internet is 100% secure.
+
+6. Your Rights
+
+You have the right to access, correct, or delete your personal information. You may also choose to opt out of certain data processing activities, such as receiving promotional communications.
+
+7. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be communicated to you through the app.
